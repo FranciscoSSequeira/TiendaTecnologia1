@@ -1,0 +1,20 @@
+{
+  "name": "ecommerce-frontend",
+  "version": "1.0.0",
+  "description": "Frontend para la aplicación de ecommerce",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
