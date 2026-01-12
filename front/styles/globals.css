@@ -108,3 +108,11 @@ body {
   margin-top: 40px;
   color: #555;
 }
+
+/* borrado icono next */
+[data-nextjs-feedback-button] {
+  display: none !important;
+}
+#next-feedback-button, [data-nextjs-feedback-button] {
+  display: none !important;
+}
