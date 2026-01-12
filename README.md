@@ -2,7 +2,7 @@
 
 <table>
 
-  <!-- Home / Register -->
+  <!-- Home  -->
   <tr>
     <td width="50%" align="center" valign="top">
 
@@ -18,6 +18,16 @@
 </td>
   </tr>
 
-  <!-- Login -->
+  <!-- Productos -->
+  <tr>
+    <td colspan="2" align="center" valign="top">
+      
+### Contacto
+<img width="2560" height="1600" alt="localhost_3000_(Nest Hub Max) (2)" src="https://github.com/user-attachments/assets/e63a4208-a9c5-4657-a616-ca0ae9c15137" />
+
+</td>
+  </tr>
+
+  <!-- Contacto -->
   <tr>
     <td colspan="2" align="center" valign="top">
