@@ -1,4 +1,4 @@
-# Tienda Tecnología
+# Tienda Tecnología - EN CONSTRUCCION -
 Tienda Tecnología es una demo de una tienda online de productos de tecnología.
 
 ## 🖼️ Vistas de la aplicación
