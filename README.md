@@ -37,6 +37,7 @@ Tienda Tecnología es una demo de una tienda online de productos de tecnología.
 
 ### Backend - Swagger
 
+<img width="1030" height="2386" alt="tiendatecnologia1 onrender com-API" src="https://github.com/user-attachments/assets/b8137245-2851-413f-aa53-8a89599d5206" />
 
 
 </td>
