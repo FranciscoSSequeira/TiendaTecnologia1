@@ -9,11 +9,10 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "latest",
+    "next": "^16.1.1",
     "react": "latest",
     "react-dom": "latest"
   },
-  "devDependencies": {},
   "keywords": [],
   "author": "",
   "license": "ISC"
