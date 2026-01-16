@@ -99,7 +99,7 @@ export class ProductsRepository{
                     .insert()
                     .into(Product)
                     .values(product)
-                    .orUpdate(['description', 'price', 'stock'], ['name'])
+                    .orUpdate(['description', 'price', 'stock', 'imgUrl'], ['name'])
                     .execute();
             }
             return 'Productos agregados';
