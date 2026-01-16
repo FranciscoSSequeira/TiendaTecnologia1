@@ -8,7 +8,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   app.enableCors({
-    origin: 'http://localhost:3000', // Permite peticiones desde tu frontend
+    origin: 'https://tienda-tecnologia1.vercel.app', // Permite peticiones desde tu frontend
     credentials: true,
   });
 
