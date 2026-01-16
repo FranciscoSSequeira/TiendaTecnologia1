@@ -1,0 +1,37 @@
+/* [project]/Documents/proyectos/TiendaTecnologia1/front/components/Carrusel/Carrusel.module.css [client] (css) */
+.Carrusel-module__XVw1la__carousel {
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+  display: flex;
+  position: relative;
+}
+
+.Carrusel-module__XVw1la__carousel-img {
+  object-fit: cover;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 900px;
+  height: 240px;
+  margin: 0 auto;
+  display: block;
+}
+
+.Carrusel-module__XVw1la__carousel-btn {
+  color: #fff;
+  cursor: pointer;
+  z-index: 1;
+  background: #007bff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  font-size: 24px;
+}
+
+.Carrusel-module__XVw1la__carousel-btn:hover {
+  background: #0056b3;
+}
+
+/*# sourceMappingURL=80b94_proyectos_TiendaTecnologia1_front_components_Carrusel_Carrusel_module_d432df5a.css.map*/

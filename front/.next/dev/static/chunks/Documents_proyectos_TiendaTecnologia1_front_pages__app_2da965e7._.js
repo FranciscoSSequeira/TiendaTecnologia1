@@ -1,0 +1,14 @@
+(globalThis.TURBOPACK_CHUNK_LISTS || (globalThis.TURBOPACK_CHUNK_LISTS = [])).push({
+    script: typeof document === "object" ? document.currentScript : undefined,
+    chunks: [
+  "static/chunks/4a6cc_next_dist_compiled_1828b557._.js",
+  "static/chunks/4a6cc_next_dist_shared_lib_1e0fb6de._.js",
+  "static/chunks/4a6cc_next_dist_client_1e4d64fd._.js",
+  "static/chunks/4a6cc_next_dist_0ed92dce._.js",
+  "static/chunks/4a6cc_react-dom_e286aa6b._.js",
+  "static/chunks/4a6cc_7e95d809._.js",
+  "static/chunks/[root-of-the-server]__b2bba66b._.js",
+  "static/chunks/Documents_proyectos_TiendaTecnologia1_front_styles_globals_f0d53d94.css"
+],
+    source: "entry"
+});
