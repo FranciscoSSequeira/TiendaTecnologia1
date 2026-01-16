@@ -74,6 +74,7 @@ export class ProductsRepository{
                 price: number;
                 stock: number;
                 category: string;
+                imgUrl?: string;
             };
 
             for (const element of data as ProductSeed[]) {
@@ -91,6 +92,7 @@ export class ProductsRepository{
                 product.price = element.price;
                 product.stock = element.stock;
                 product.category = relatedCategory;
+                product.imgUrl = element.imgUrl || '' ;
 
                 await this.productsRepository
                     .createQueryBuilder()
