@@ -7,7 +7,8 @@ export default function Productos() {
   const [selectedCategory, setSelectedCategory] = useState("Todas");
 
   useEffect(() => {
-    fetch("http://localhost:3001/products")
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL;
+    fetch(`${apiUrl}/products`)
       .then((res) => res.json())
       .then((data) => {
         setProducts(data);
