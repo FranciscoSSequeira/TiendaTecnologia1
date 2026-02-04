@@ -9,6 +9,7 @@ export default function Home() {
         <nav className="nav">
           <Link href="/">Inicio</Link>
           <Link href="/productos">Productos</Link>
+          <Link href="/carrito">Carrito</Link> {/* <-- Agregado */}
           <Link href="/contacto">Contacto</Link>
         </nav>
       </header>
@@ -18,7 +19,7 @@ export default function Home() {
         <p>Encuentra los mejores productos al mejor precio.</p>
       </section>
       <footer className="footer">
-        <p>© 2025 Tienda Tecnología. Todos los derechos reservados.</p>
+        <p>© 2026 Tienda Tecnología. Todos los derechos reservados.</p>
       </footer>
     </div>
   );
