@@ -2,7 +2,6 @@
 Tienda Tecnología es una demo de una tienda online de productos de tecnología.
 
 ### [Link] (https://tienda-tecnologia1.vercel.app)
-(en proceso de deploy🛠️, no toma los items de la base de datos aún...)
 
 ## 🖼️ Vistas de la aplicación
 
