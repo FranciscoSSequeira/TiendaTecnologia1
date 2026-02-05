@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
+import { useCart } from "../context/CartContext"; 
+
 
 export default function Productos() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [selectedCategory, setSelectedCategory] = useState("Todas");
+  const { addToCart } = useCart();
 
   useEffect(() => {
     fetch(`${process.env.NEXT_PUBLIC_API_URL}/products`)
@@ -78,13 +81,15 @@ export default function Productos() {
               <p className="category">
                 {product.category?.name ? product.category.name : ""}
               </p>
-              <button>Agregar al carrito</button>
+              <button onClick={() => addToCart(product)}>
+                Agregar al carrito
+              </button>
             </div>
           ))
         )}
       </section>
       <footer className="footer">
-        <p>© 2025 Tienda Tecnología. Todos los derechos reservados.</p>
+        <p>© 2026 Tienda Tecnología. Todos los derechos reservados.</p>
       </footer>
     </div>
   );
