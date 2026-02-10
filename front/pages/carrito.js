@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Cart from "../components/Cart/Cart";
+import React from 'react';
 
 export default function Carrito() {
   return (
