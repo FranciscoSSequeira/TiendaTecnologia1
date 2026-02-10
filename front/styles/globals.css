@@ -7,6 +7,49 @@ body {
   color: #333;
 }
 
+.dark-mode {
+  background-color: #181818 !important;
+  color: #F9F9F9 !important;
+}
+
+.dark-mode .header {
+  border-bottom: 1px solid #333;
+}
+.dark-mode .logo {
+  color: #F9F9F9;
+}
+.dark-mode .nav a {
+  color: #90caf9;
+}
+.dark-mode .nav a:hover {
+  text-decoration: underline;
+}
+.dark-mode .hero h2,
+.dark-mode .hero p {
+  color: #F9F9F9;
+}
+.dark-mode .product-card {
+  background: #232323;
+  border: 1px solid #333;
+  color: #F9F9F9;
+}
+.dark-mode .product-card p {
+  color: #81c784;
+}
+.dark-mode .product-card button {
+  background-color: #90caf9;
+  color: #181818;
+}
+.dark-mode .product-card button:hover {
+  background-color: #1976d2;
+  color: #fff;
+}
+.dark-mode .footer {
+  border-top: 1px solid #333;
+  color: #F9F9F9;
+}
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
