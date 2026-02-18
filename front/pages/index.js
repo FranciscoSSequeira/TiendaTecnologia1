@@ -27,9 +27,9 @@ export default function Home() {
           <Link href="/carrito">Carrito</Link> 
           <Link href="/contacto">Contacto</Link>
         </nav>
-        <button style={{marginLeft: '20px'}} onClick={() => setDarkMode(!darkMode)}>
+        {/* <button style={{marginLeft: '20px'}} onClick={() => setDarkMode(!darkMode)}>
           {darkMode ? 'Modo White' : 'Modo Dark'}
-        </button>
+        </button> */}
       </header>
       <Carrusel />
       <section className="hero">
