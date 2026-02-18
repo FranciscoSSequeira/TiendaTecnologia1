@@ -17,7 +17,7 @@ export default function Contacto() {
         <p>Puedes contactarnos a través de nuestro correo: contacto@tiendatecnologia.com</p>
       </section>
       <footer className="footer">
-        <p>© 2025 Tienda Tecnología. Todos los derechos reservados.</p>
+        <p>© 2026 Tienda Tecnología. Todos los derechos reservados.</p>
       </footer>
     </div>
   );
