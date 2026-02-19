@@ -8,6 +8,7 @@ export default function Productos() {
   const [loading, setLoading] = useState(true);
   const [selectedCategory, setSelectedCategory] = useState("Todas");
   const { addToCart } = useCart();
+  const [notification, setNotification] = useState("");
 
   useEffect(() => {
     fetch(`${process.env.NEXT_PUBLIC_API_URL}/products`)
@@ -39,6 +40,12 @@ export default function Productos() {
       : products.filter(
           (p) => p.category && p.category.name === selectedCategory
         );
+
+  const handleAddToCart = (product) => {
+    addToCart(product);
+    setNotification("¡Producto agregado al carrito!");
+    setTimeout(() => setNotification(""), 2000); 
+  };
 
   return (
     <div className="container">
@@ -84,6 +91,9 @@ export default function Productos() {
               <button onClick={() => addToCart(product)}>
                 Agregar al carrito
               </button>
+               {notification && (
+                <div className="cart-notification">{notification}</div>
+                )}
             </div>
           ))
         )}
