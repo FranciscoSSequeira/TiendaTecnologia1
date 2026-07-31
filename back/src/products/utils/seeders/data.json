@@ -23,6 +23,15 @@
     "imgUrl": "https://res.cloudinary.com/dngslkrog/image/upload/v1768230659/qhyqj1lneylmbparq9hg.webp",
     "category": "smartphone"
   },
+  { 
+    "name": "Iphone 16",
+    "description": "The best smartphone in the world",
+    "price": 299.99,
+    "stock": 9,
+    "imgUrl": "https://res.cloudinary.com/dpoxho5cw/image/upload/v1785538383/iphone16_tqqxq8.webp",
+    "category": "smartphone"
+  },
+  
   {
     "name": "Logitech G502 Pro",
     "description": "The best mouse in the world",
